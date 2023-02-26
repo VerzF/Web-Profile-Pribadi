@@ -1,0 +1,193 @@
+/* Drop Down Menu*/
+/* Navbar Container */
+.navbar {
+    margin-left:0%;
+    margin-top: 5%;
+    overflow: hidden;
+    background-color: #336699;
+    font-family: Arial;
+    
+  }
+  
+  /* Link */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Dropdown Container */
+  .dropdown {
+      background-color: #336699;
+    float: left;
+    overflow: visible;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+  
+ 
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #336699;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #336699;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+body{
+    
+    background-color: rgb(190, 67, 84) ;
+}
+/* Home */
+.home {
+  background-color: brown;
+  box-shadow: 0 50px 50px 0 rgba(225, 11, 11, 0.2);
+  max-width: 550px;
+  max-height: 270px;
+  margin: auto;
+  padding-top:0;
+  
+  text-align: center
+}
+.home td{
+    color : white;
+    background-color: #336699; border-width: 1px;
+    border-style: solid; border-color: rgb(255, 255, 255); font-size: 15pt;
+     
+}
+.home table{
+  box-shadow: 0 30px 50px 0 rgba(225, 11, 11, 0.2);
+  width: 550;
+}
+
+.paragraph {
+  margin-top: 50px;
+}
+.paragraph h1{
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Times New Roman', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: -1px;
+  color: white;
+}
+.paragraph p{
+  text-indent: 30px;
+  text-align: justify;
+  color: white;
+  font-size: 20;
+}
+
+/*Pendidikan*/
+.pendidikan tr{
+    text-align: center;
+}
+.pendidikan th{
+        color: #FFFFFF; background-color: #336699; border-width: 1px;
+        border-style: solid; border-color: none; font-size: 12pt;    
+}
+.pendidikan td{
+    color : white;
+    background-color: #336699; border-width: 1px;
+    border-style: solid; border-color: none; font-size: 12pt;
+}
+
+
+/* Riwayat Organisasi */
+
+.Organisasi h1{
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  letter-spacing: -1px;
+  color: white;
+}
+.Organisasi h2{
+  font-size: 25;
+  font-style: oblique;
+  color: white;
+  text-align: justify;
+}
+.Organisasi p{
+  color: white;
+  font-size: 18;
+  text-align: justify;
+}
+
+/* contact */
+.card {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(190, 67, 84);
+  color: white;
+}
+
+.title {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+
+.card a {
+  
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding-right: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 40px;
+  color: rgb(255, 255, 255);
+  background-color: #336699;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card a:link{
+  text-decoration: none;
+}
+
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.card img{
+  margin-top: 25px;
+  height: 250px;
+  width: 200px;
+}
